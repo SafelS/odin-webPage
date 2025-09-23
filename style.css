@@ -80,3 +80,52 @@ a{
   font-size: 16px;
   cursor: pointer;
 }
+
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.image-container,
+.text-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text-container{
+    padding-top: 6px;
+   
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image,
+.first-text,
+.second-text,
+.third-text,
+.fourth-text{
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 12px;
+}
+
+.first-image,
+.second-image,
+.third-image,
+.fourth-image{
+    border: 4px solid blue;
+    border-radius: 12px;
+}
+
