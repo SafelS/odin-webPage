@@ -154,3 +154,53 @@ a{
     font-weight: bold;
 }
 
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px; ;
+    
+}
+
+.action-container{
+    display: flex;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 16px;
+    padding-left: 100px;
+    padding-right: 100px ;
+    border-radius: 12px;
+}
+
+.action-button-container{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    color: #F9FAF8;
+}
+
+.action-button{
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: solid 3px #F9FAF8;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Hover-Effekt */
+.action-button:hover {
+    background-color: #2c6cdf;
+    cursor: pointer;
+}
+
+/* Active-State (beim Klicken gedrückt) */
+.action-button:active {
+    background-color: #1f4fbf;
+    transform: scale(0.97);
+}
+
